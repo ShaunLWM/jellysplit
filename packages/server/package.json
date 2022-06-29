@@ -1,8 +1,10 @@
 {
-  "name": "server",
+  "name": "@jellysplit/server",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "start": "tsc -w"
+    "start:dev": "yarn watch",
+    "watch": "tsc --watch",
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^4.7.4"

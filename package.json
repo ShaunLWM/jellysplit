@@ -4,5 +4,11 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "start:dev:client": "yarn workspace @jellysplit/client start:dev",
+    "start:dev:server": "yarn workspace @jellysplit/server start:dev",
+    "start:prod:client": "yarn workspace @jellysplit/client start:prod",
+    "start:prod:server": "yarn workspace @jellysplit/server start:prod"
+  }
 }
